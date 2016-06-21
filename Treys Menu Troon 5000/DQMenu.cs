@@ -35,5 +35,10 @@ namespace Treys_Menu_Troon_5000
         {
 
         }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
