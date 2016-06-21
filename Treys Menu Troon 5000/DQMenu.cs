@@ -25,5 +25,15 @@ namespace Treys_Menu_Troon_5000
         private void DQMenu_FormClosed(object sender, FormClosedEventArgs e)
         {
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
