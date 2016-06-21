@@ -10,23 +10,20 @@ using System.Windows.Forms;
 
 namespace Treys_Menu_Troon_5000
 {
-    public partial class Form1 : Form
+    public partial class DQMenu : Form
     {
-
-        public Form1()
+        public DQMenu()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        private void DQMenu_Load(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void DQMenu_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Form dqMenu = new Form();
-            dqMenu.Show();
         }
     }
 }
