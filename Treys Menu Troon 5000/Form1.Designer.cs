@@ -31,7 +31,7 @@
             this.txbTitle = new System.Windows.Forms.TextBox();
             this.btnDQ = new System.Windows.Forms.Button();
             this.btnRedRobins = new System.Windows.Forms.Button();
-            this.btnPeiWei = new System.Windows.Forms.Button();
+            this.btn54th = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txbTitle
@@ -68,15 +68,16 @@
             this.btnRedRobins.Text = "Red Robins";
             this.btnRedRobins.UseVisualStyleBackColor = true;
             // 
-            // btnPeiWei
+            // btn54th
             // 
-            this.btnPeiWei.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnPeiWei.Location = new System.Drawing.Point(145, 237);
-            this.btnPeiWei.Name = "btnPeiWei";
-            this.btnPeiWei.Size = new System.Drawing.Size(213, 43);
-            this.btnPeiWei.TabIndex = 3;
-            this.btnPeiWei.Text = "Pei Wei";
-            this.btnPeiWei.UseVisualStyleBackColor = true;
+            this.btn54th.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btn54th.Location = new System.Drawing.Point(145, 237);
+            this.btn54th.Name = "btn54th";
+            this.btn54th.Size = new System.Drawing.Size(213, 43);
+            this.btn54th.TabIndex = 3;
+            this.btn54th.Text = "54th Street";
+            this.btn54th.UseVisualStyleBackColor = true;
+            this.btn54th.Click += new System.EventHandler(this.btn54th_Click);
             // 
             // Form1
             // 
@@ -84,7 +85,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lime;
             this.ClientSize = new System.Drawing.Size(503, 376);
-            this.Controls.Add(this.btnPeiWei);
+            this.Controls.Add(this.btn54th);
             this.Controls.Add(this.btnRedRobins);
             this.Controls.Add(this.btnDQ);
             this.Controls.Add(this.txbTitle);
@@ -100,7 +101,7 @@
         private System.Windows.Forms.TextBox txbTitle;
         private System.Windows.Forms.Button btnDQ;
         private System.Windows.Forms.Button btnRedRobins;
-        private System.Windows.Forms.Button btnPeiWei;
+        private System.Windows.Forms.Button btn54th;
     }
 }
 

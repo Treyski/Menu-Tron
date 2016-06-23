@@ -25,8 +25,19 @@ namespace Treys_Menu_Troon_5000
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form dqMenu = new Form();
+            DQMenu dqMenu = new DQMenu();
             dqMenu.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btn54th_Click(object sender, EventArgs e)
+        {
+            FiftyFourthMainMenu menu = new FiftyFourthMainMenu();
+            menu.Show();
         }
     }
 }
