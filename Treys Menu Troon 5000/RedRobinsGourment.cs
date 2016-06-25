@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace Treys_Menu_Troon_5000
 {
-    public partial class FiftyFourthSoup : Form
+    public partial class RedRobinsGourment : Form
     {
-        public FiftyFourthSoup()
+        public RedRobinsGourment()
         {
             InitializeComponent();
         }
 
-        private void txtbCCCD_TextChanged(object sender, EventArgs e)
+        private void textBox10_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void FiftyFourthSoup_Load(object sender, EventArgs e)
+        private void textBox16_TextChanged(object sender, EventArgs e)
         {
 
         }

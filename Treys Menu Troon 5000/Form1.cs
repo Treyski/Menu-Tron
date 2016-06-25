@@ -39,5 +39,11 @@ namespace Treys_Menu_Troon_5000
             FiftyFourthMainMenu menu = new FiftyFourthMainMenu();
             menu.Show();
         }
+
+        private void btnRedRobins_Click(object sender, EventArgs e)
+        {
+            RedRobinsMain menu = new RedRobinsMain();
+            menu.Show();
+        }
     }
 }

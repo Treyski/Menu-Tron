@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FiftyFourthBurgers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiftyFourthBurgers.Designer.cs">
+      <DependentUpon>FiftyFourthBurgers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FiftyFourthCombos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiftyFourthCombos.Designer.cs">
+      <DependentUpon>FiftyFourthCombos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FiftyFourthFiveFour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiftyFourthFiveFour.Designer.cs">
+      <DependentUpon>FiftyFourthFiveFour.cs</DependentUpon>
+    </Compile>
     <Compile Include="FiftyFourthMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,11 +76,23 @@
     <Compile Include="DQMenu.Designer.cs">
       <DependentUpon>DQMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FiftyFourthMexican.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiftyFourthMexican.Designer.cs">
+      <DependentUpon>FiftyFourthMexican.cs</DependentUpon>
+    </Compile>
     <Compile Include="FiftyFourthMunchies.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FiftyFourthMunchies.Designer.cs">
       <DependentUpon>FiftyFourthMunchies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FiftyFourthPasta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiftyFourthPasta.Designer.cs">
+      <DependentUpon>FiftyFourthPasta.cs</DependentUpon>
     </Compile>
     <Compile Include="FiftyFourthSalads.cs">
       <SubType>Form</SubType>
@@ -70,11 +100,35 @@
     <Compile Include="FiftyFourthSalads.Designer.cs">
       <DependentUpon>FiftyFourthSalads.cs</DependentUpon>
     </Compile>
+    <Compile Include="FiftyFourthSeafood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiftyFourthSeafood.Designer.cs">
+      <DependentUpon>FiftyFourthSeafood.cs</DependentUpon>
+    </Compile>
     <Compile Include="FiftyFourthSoup.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FiftyFourthSoup.Designer.cs">
       <DependentUpon>FiftyFourthSoup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FiftyFourthSouth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiftyFourthSouth.Designer.cs">
+      <DependentUpon>FiftyFourthSouth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FiftyFourthSteak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiftyFourthSteak.Designer.cs">
+      <DependentUpon>FiftyFourthSteak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FiftyFourthSuperS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiftyFourthSuperS.Designer.cs">
+      <DependentUpon>FiftyFourthSuperS.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -84,20 +138,107 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RedRobinsAppetizers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RedRobinsAppetizers.Designer.cs">
+      <DependentUpon>RedRobinsAppetizers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RedRobinsEntrees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RedRobinsEntrees.Designer.cs">
+      <DependentUpon>RedRobinsEntrees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RedRobinsFine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RedRobinsFine.Designer.cs">
+      <DependentUpon>RedRobinsFine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RedRobinsGourment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RedRobinsGourment.Designer.cs">
+      <DependentUpon>RedRobinsGourment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RedRobinsMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RedRobinsMain.Designer.cs">
+      <DependentUpon>RedRobinsMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RedRobinsOther.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RedRobinsOther.Designer.cs">
+      <DependentUpon>RedRobinsOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RedRobinsSalad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RedRobinsSalad.Designer.cs">
+      <DependentUpon>RedRobinsSalad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RedRobinsSoup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RedRobinsSoup.Designer.cs">
+      <DependentUpon>RedRobinsSoup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RedRobinsTavern.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RedRobinsTavern.Designer.cs">
+      <DependentUpon>RedRobinsTavern.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RedRobinsWrap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RedRobinsWrap.Designer.cs">
+      <DependentUpon>RedRobinsWrap.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FiftyFourthBurgers.resx">
+      <DependentUpon>FiftyFourthBurgers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FiftyFourthCombos.resx">
+      <DependentUpon>FiftyFourthCombos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FiftyFourthFiveFour.resx">
+      <DependentUpon>FiftyFourthFiveFour.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FiftyFourthMainMenu.resx">
       <DependentUpon>FiftyFourthMainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DQMenu.resx">
       <DependentUpon>DQMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FiftyFourthMexican.resx">
+      <DependentUpon>FiftyFourthMexican.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FiftyFourthMunchies.resx">
       <DependentUpon>FiftyFourthMunchies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FiftyFourthPasta.resx">
+      <DependentUpon>FiftyFourthPasta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FiftyFourthSalads.resx">
       <DependentUpon>FiftyFourthSalads.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FiftyFourthSeafood.resx">
+      <DependentUpon>FiftyFourthSeafood.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FiftyFourthSoup.resx">
       <DependentUpon>FiftyFourthSoup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FiftyFourthSouth.resx">
+      <DependentUpon>FiftyFourthSouth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FiftyFourthSteak.resx">
+      <DependentUpon>FiftyFourthSteak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FiftyFourthSuperS.resx">
+      <DependentUpon>FiftyFourthSuperS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -111,6 +252,36 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RedRobinsAppetizers.resx">
+      <DependentUpon>RedRobinsAppetizers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedRobinsEntrees.resx">
+      <DependentUpon>RedRobinsEntrees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedRobinsFine.resx">
+      <DependentUpon>RedRobinsFine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedRobinsGourment.resx">
+      <DependentUpon>RedRobinsGourment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedRobinsMain.resx">
+      <DependentUpon>RedRobinsMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedRobinsOther.resx">
+      <DependentUpon>RedRobinsOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedRobinsSalad.resx">
+      <DependentUpon>RedRobinsSalad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedRobinsSoup.resx">
+      <DependentUpon>RedRobinsSoup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedRobinsTavern.resx">
+      <DependentUpon>RedRobinsTavern.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RedRobinsWrap.resx">
+      <DependentUpon>RedRobinsWrap.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

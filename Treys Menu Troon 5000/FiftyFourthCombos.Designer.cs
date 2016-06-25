@@ -1,6 +1,6 @@
 ﻿namespace Treys_Menu_Troon_5000
 {
-    partial class FiftyFourthSoup
+    partial class FiftyFourthCombos
     {
         /// <summary>
         /// Required designer variable.
@@ -47,91 +47,90 @@
             this.txtbSCT.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtbSCT.Enabled = false;
             this.txtbSCT.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.txtbSCT.Location = new System.Drawing.Point(14, 65);
+            this.txtbSCT.Location = new System.Drawing.Point(13, 60);
             this.txtbSCT.Margin = new System.Windows.Forms.Padding(4);
             this.txtbSCT.Name = "txtbSCT";
             this.txtbSCT.Size = new System.Drawing.Size(321, 22);
-            this.txtbSCT.TabIndex = 37;
-            this.txtbSCT.Text = "Idaho Baked Potato Soup";
+            this.txtbSCT.TabIndex = 46;
+            this.txtbSCT.Text = "Sandwich & Soup Combo";
             // 
             // txtbPBCDS
             // 
             this.txtbPBCDS.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtbPBCDS.Enabled = false;
             this.txtbPBCDS.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.txtbPBCDS.Location = new System.Drawing.Point(14, 109);
+            this.txtbPBCDS.Location = new System.Drawing.Point(13, 104);
             this.txtbPBCDS.Margin = new System.Windows.Forms.Padding(4);
             this.txtbPBCDS.Name = "txtbPBCDS";
             this.txtbPBCDS.Size = new System.Drawing.Size(321, 22);
-            this.txtbPBCDS.TabIndex = 36;
-            this.txtbPBCDS.Text = "Outlaw Steak Soup";
+            this.txtbPBCDS.TabIndex = 45;
+            this.txtbPBCDS.Text = "Soup & Salad Combo";
             // 
             // dateTimePicker8
             // 
-            this.dateTimePicker8.Location = new System.Drawing.Point(451, 61);
+            this.dateTimePicker8.Location = new System.Drawing.Point(450, 56);
             this.dateTimePicker8.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker8.Name = "dateTimePicker8";
             this.dateTimePicker8.Size = new System.Drawing.Size(296, 22);
-            this.dateTimePicker8.TabIndex = 34;
+            this.dateTimePicker8.TabIndex = 44;
             // 
             // dateTimePicker7
             // 
-            this.dateTimePicker7.Location = new System.Drawing.Point(451, 107);
+            this.dateTimePicker7.Location = new System.Drawing.Point(450, 102);
             this.dateTimePicker7.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker7.Name = "dateTimePicker7";
             this.dateTimePicker7.Size = new System.Drawing.Size(296, 22);
-            this.dateTimePicker7.TabIndex = 33;
+            this.dateTimePicker7.TabIndex = 43;
             // 
             // numericUpDown4
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(378, 107);
+            this.numericUpDown4.Location = new System.Drawing.Point(377, 102);
             this.numericUpDown4.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(35, 22);
-            this.numericUpDown4.TabIndex = 31;
+            this.numericUpDown4.TabIndex = 42;
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(378, 61);
+            this.numericUpDown2.Location = new System.Drawing.Point(377, 56);
             this.numericUpDown2.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(35, 22);
-            this.numericUpDown2.TabIndex = 29;
+            this.numericUpDown2.TabIndex = 41;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(451, 17);
+            this.dateTimePicker1.Location = new System.Drawing.Point(450, 12);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(296, 22);
-            this.dateTimePicker1.TabIndex = 28;
+            this.dateTimePicker1.TabIndex = 40;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(378, 17);
+            this.numericUpDown1.Location = new System.Drawing.Point(377, 12);
             this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(35, 22);
-            this.numericUpDown1.TabIndex = 27;
+            this.numericUpDown1.TabIndex = 39;
             // 
             // txtbCCCD
             // 
             this.txtbCCCD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtbCCCD.Enabled = false;
             this.txtbCCCD.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.txtbCCCD.Location = new System.Drawing.Point(14, 19);
+            this.txtbCCCD.Location = new System.Drawing.Point(13, 14);
             this.txtbCCCD.Margin = new System.Windows.Forms.Padding(4);
             this.txtbCCCD.Name = "txtbCCCD";
             this.txtbCCCD.Size = new System.Drawing.Size(321, 22);
-            this.txtbCCCD.TabIndex = 26;
-            this.txtbCCCD.Text = "Chicken Tortilla Soup";
-            this.txtbCCCD.TextChanged += new System.EventHandler(this.txtbCCCD_TextChanged);
+            this.txtbCCCD.TabIndex = 38;
+            this.txtbCCCD.Text = "Loaded Idaho Backed Platter";
             // 
-            // FiftyFourthSoup
+            // FiftyFourthCombos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(761, 173);
+            this.ClientSize = new System.Drawing.Size(771, 146);
             this.Controls.Add(this.txtbSCT);
             this.Controls.Add(this.txtbPBCDS);
             this.Controls.Add(this.dateTimePicker8);
@@ -141,10 +140,8 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.txtbCCCD);
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "FiftyFourthSoup";
-            this.Text = "Fifty Fourth Soup";
-            this.Load += new System.EventHandler(this.FiftyFourthSoup_Load);
+            this.Name = "FiftyFourthCombos";
+            this.Text = "Fifty Fourth Combos";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
