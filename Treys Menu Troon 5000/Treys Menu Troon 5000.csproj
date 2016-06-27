@@ -198,6 +198,48 @@
     <Compile Include="RedRobinsWrap.Designer.cs">
       <DependentUpon>RedRobinsWrap.cs</DependentUpon>
     </Compile>
+    <Compile Include="StarbucksCoffee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StarbucksCoffee.Designer.cs">
+      <DependentUpon>StarbucksCoffee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StarbucksEspr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StarbucksEspr.Designer.cs">
+      <DependentUpon>StarbucksEspr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StarbucksFrap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StarbucksFrap.Designer.cs">
+      <DependentUpon>StarbucksFrap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StarbucksMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StarbucksMain.Designer.cs">
+      <DependentUpon>StarbucksMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StarbucksRef.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StarbucksRef.Designer.cs">
+      <DependentUpon>StarbucksRef.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StarbucksSmoo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StarbucksSmoo.Designer.cs">
+      <DependentUpon>StarbucksSmoo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StarbucksTea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StarbucksTea.Designer.cs">
+      <DependentUpon>StarbucksTea.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FiftyFourthBurgers.resx">
       <DependentUpon>FiftyFourthBurgers.cs</DependentUpon>
     </EmbeddedResource>
@@ -281,6 +323,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RedRobinsWrap.resx">
       <DependentUpon>RedRobinsWrap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StarbucksCoffee.resx">
+      <DependentUpon>StarbucksCoffee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StarbucksEspr.resx">
+      <DependentUpon>StarbucksEspr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StarbucksFrap.resx">
+      <DependentUpon>StarbucksFrap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StarbucksMain.resx">
+      <DependentUpon>StarbucksMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StarbucksRef.resx">
+      <DependentUpon>StarbucksRef.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StarbucksSmoo.resx">
+      <DependentUpon>StarbucksSmoo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StarbucksTea.resx">
+      <DependentUpon>StarbucksTea.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

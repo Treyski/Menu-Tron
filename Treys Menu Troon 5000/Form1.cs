@@ -45,5 +45,11 @@ namespace Treys_Menu_Troon_5000
             RedRobinsMain menu = new RedRobinsMain();
             menu.Show();
         }
+
+        private void btnStar_Click(object sender, EventArgs e)
+        {
+            StarbucksMain menu = new StarbucksMain();
+            menu.Show();
+        }
     }
 }
