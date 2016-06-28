@@ -171,34 +171,34 @@
             // 
             // textBox1
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Enabled = false;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox1.Location = new System.Drawing.Point(16, 11);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(241, 17);
+            this.textBox1.Size = new System.Drawing.Size(241, 24);
             this.textBox1.TabIndex = 59;
             this.textBox1.Text = "Caffe Latte";
             // 
             // textBox2
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.Enabled = false;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox2.Location = new System.Drawing.Point(16, 46);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(241, 17);
+            this.textBox2.Size = new System.Drawing.Size(241, 24);
             this.textBox2.TabIndex = 58;
             this.textBox2.Text = "Caffe Mocha";
             // 
             // textBox3
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.Enabled = false;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox3.Location = new System.Drawing.Point(16, 79);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(241, 17);
+            this.textBox3.Size = new System.Drawing.Size(241, 24);
             this.textBox3.TabIndex = 57;
             this.textBox3.Text = "Cappuccino";
             // 
@@ -246,34 +246,34 @@
             // 
             // textBox4
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox4.Enabled = false;
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox4.Location = new System.Drawing.Point(16, 114);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(241, 17);
+            this.textBox4.Size = new System.Drawing.Size(241, 24);
             this.textBox4.TabIndex = 68;
             this.textBox4.Text = "Caramel Espresso Granita";
             // 
             // textBox5
             // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox5.Enabled = false;
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox5.Location = new System.Drawing.Point(16, 148);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(241, 17);
+            this.textBox5.Size = new System.Drawing.Size(241, 24);
             this.textBox5.TabIndex = 67;
             this.textBox5.Text = "Caramel Macchiato";
             // 
             // textBox6
             // 
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox6.Enabled = false;
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox6.Location = new System.Drawing.Point(16, 181);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(241, 17);
+            this.textBox6.Size = new System.Drawing.Size(241, 24);
             this.textBox6.TabIndex = 66;
             this.textBox6.Text = "Caramelized Honey Latte";
             // 
@@ -321,34 +321,34 @@
             // 
             // textBox7
             // 
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox7.Enabled = false;
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox7.Location = new System.Drawing.Point(16, 217);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(241, 17);
+            this.textBox7.Size = new System.Drawing.Size(241, 24);
             this.textBox7.TabIndex = 77;
             this.textBox7.Text = "Cinnamon Dolce Latte";
             // 
             // textBox8
             // 
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox8.Enabled = false;
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox8.Location = new System.Drawing.Point(16, 251);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(241, 17);
+            this.textBox8.Size = new System.Drawing.Size(241, 24);
             this.textBox8.TabIndex = 76;
             this.textBox8.Text = "Espresso";
             // 
             // textBox9
             // 
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox9.Enabled = false;
             this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox9.Location = new System.Drawing.Point(16, 284);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(241, 17);
+            this.textBox9.Size = new System.Drawing.Size(241, 24);
             this.textBox9.TabIndex = 75;
             this.textBox9.Text = "Espresso Con Panna";
             // 
@@ -396,34 +396,34 @@
             // 
             // textBox10
             // 
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox10.Enabled = false;
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox10.Location = new System.Drawing.Point(16, 318);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(241, 17);
+            this.textBox10.Size = new System.Drawing.Size(241, 24);
             this.textBox10.TabIndex = 86;
             this.textBox10.Text = "Espresso Macchiato";
             // 
             // textBox11
             // 
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox11.Enabled = false;
             this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox11.Location = new System.Drawing.Point(16, 352);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(241, 17);
+            this.textBox11.Size = new System.Drawing.Size(241, 24);
             this.textBox11.TabIndex = 85;
             this.textBox11.Text = "Flat White";
             // 
             // textBox12
             // 
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox12.Enabled = false;
             this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox12.Location = new System.Drawing.Point(16, 385);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(241, 17);
+            this.textBox12.Size = new System.Drawing.Size(241, 24);
             this.textBox12.TabIndex = 84;
             this.textBox12.Text = "Iced Caffe Americano";
             // 
@@ -471,34 +471,34 @@
             // 
             // textBox13
             // 
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox13.Enabled = false;
             this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox13.Location = new System.Drawing.Point(16, 422);
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(241, 17);
+            this.textBox13.Size = new System.Drawing.Size(241, 24);
             this.textBox13.TabIndex = 95;
             this.textBox13.Text = "Iced Caffe Latte";
             // 
             // textBox14
             // 
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox14.Enabled = false;
             this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox14.Location = new System.Drawing.Point(16, 456);
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(241, 17);
+            this.textBox14.Size = new System.Drawing.Size(241, 24);
             this.textBox14.TabIndex = 94;
             this.textBox14.Text = "Iced Caffe Mocha";
             // 
             // textBox15
             // 
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox15.Enabled = false;
             this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox15.Location = new System.Drawing.Point(16, 489);
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(241, 17);
+            this.textBox15.Size = new System.Drawing.Size(241, 24);
             this.textBox15.TabIndex = 93;
             this.textBox15.Text = "Iced Caramel Macchiato";
             // 
@@ -546,34 +546,34 @@
             // 
             // textBox16
             // 
-            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox16.Enabled = false;
             this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox16.Location = new System.Drawing.Point(16, 523);
             this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(241, 17);
+            this.textBox16.Size = new System.Drawing.Size(241, 24);
             this.textBox16.TabIndex = 104;
             this.textBox16.Text = "Iced Caramelized Honey Latte";
             // 
             // textBox17
             // 
-            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox17.Enabled = false;
             this.textBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox17.Location = new System.Drawing.Point(16, 557);
             this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(241, 17);
+            this.textBox17.Size = new System.Drawing.Size(241, 24);
             this.textBox17.TabIndex = 103;
             this.textBox17.Text = "Iced Cinnamon Dolce Latte";
             // 
             // textBox18
             // 
-            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox18.Enabled = false;
             this.textBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox18.Location = new System.Drawing.Point(16, 591);
             this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(241, 17);
+            this.textBox18.Size = new System.Drawing.Size(241, 24);
             this.textBox18.TabIndex = 102;
             this.textBox18.Text = "Iced Skinny Cinnamon Dolce Latte";
             // 
@@ -621,34 +621,34 @@
             // 
             // textBox19
             // 
-            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox19.Enabled = false;
             this.textBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox19.Location = new System.Drawing.Point(16, 626);
             this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(241, 17);
+            this.textBox19.Size = new System.Drawing.Size(241, 24);
             this.textBox19.TabIndex = 113;
             this.textBox19.Text = "Iced Skinny Mocha";
             // 
             // textBox20
             // 
-            this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox20.Enabled = false;
             this.textBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox20.Location = new System.Drawing.Point(16, 661);
             this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(241, 17);
+            this.textBox20.Size = new System.Drawing.Size(241, 24);
             this.textBox20.TabIndex = 112;
             this.textBox20.Text = "Iced Vanilla Latte";
             // 
             // textBox21
             // 
-            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox21.Enabled = false;
             this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox21.Location = new System.Drawing.Point(16, 694);
             this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(241, 17);
+            this.textBox21.Size = new System.Drawing.Size(241, 24);
             this.textBox21.TabIndex = 111;
             this.textBox21.Text = "Iced White Chocolate Mocha";
             // 
@@ -696,34 +696,34 @@
             // 
             // textBox22
             // 
-            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox22.Enabled = false;
             this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox22.Location = new System.Drawing.Point(16, 730);
             this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(241, 17);
+            this.textBox22.Size = new System.Drawing.Size(241, 24);
             this.textBox22.TabIndex = 122;
             this.textBox22.Text = "Latte Macchiato";
             // 
             // textBox23
             // 
-            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox23.Enabled = false;
             this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox23.Location = new System.Drawing.Point(16, 764);
             this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(241, 17);
+            this.textBox23.Size = new System.Drawing.Size(241, 24);
             this.textBox23.TabIndex = 121;
             this.textBox23.Text = "Shinny Mocha";
             // 
             // textBox24
             // 
-            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox24.Enabled = false;
             this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.textBox24.Location = new System.Drawing.Point(16, 797);
             this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(241, 17);
+            this.textBox24.Size = new System.Drawing.Size(241, 24);
             this.textBox24.TabIndex = 120;
             this.textBox24.Text = "White Chocolate Mocha";
             // 
@@ -806,7 +806,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox3);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "StarbucksEspr";
             this.Text = "Starbucks Espresso";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).EndInit();

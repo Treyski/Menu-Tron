@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StarbucksSmoo));
             this.dateTimePicker17 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker18 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker19 = new System.Windows.Forms.DateTimePicker();
@@ -52,149 +53,135 @@
             // 
             // dateTimePicker17
             // 
-            this.dateTimePicker17.Location = new System.Drawing.Point(453, 106);
-            this.dateTimePicker17.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker17.Location = new System.Drawing.Point(340, 106);
             this.dateTimePicker17.Name = "dateTimePicker17";
-            this.dateTimePicker17.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker17.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker17.TabIndex = 65;
             // 
             // dateTimePicker18
             // 
-            this.dateTimePicker18.Location = new System.Drawing.Point(453, 62);
-            this.dateTimePicker18.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker18.Location = new System.Drawing.Point(340, 63);
             this.dateTimePicker18.Name = "dateTimePicker18";
-            this.dateTimePicker18.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker18.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker18.TabIndex = 64;
             // 
             // dateTimePicker19
             // 
-            this.dateTimePicker19.Location = new System.Drawing.Point(453, 19);
-            this.dateTimePicker19.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker19.Location = new System.Drawing.Point(340, 15);
             this.dateTimePicker19.Name = "dateTimePicker19";
-            this.dateTimePicker19.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker19.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker19.TabIndex = 63;
             // 
             // numericUpDown17
             // 
-            this.numericUpDown17.Location = new System.Drawing.Point(380, 106);
-            this.numericUpDown17.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown17.Location = new System.Drawing.Point(285, 106);
             this.numericUpDown17.Name = "numericUpDown17";
-            this.numericUpDown17.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown17.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown17.TabIndex = 62;
             // 
             // numericUpDown18
             // 
-            this.numericUpDown18.Location = new System.Drawing.Point(380, 61);
-            this.numericUpDown18.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown18.Location = new System.Drawing.Point(285, 63);
             this.numericUpDown18.Name = "numericUpDown18";
-            this.numericUpDown18.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown18.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown18.TabIndex = 61;
             // 
             // numericUpDown19
             // 
-            this.numericUpDown19.Location = new System.Drawing.Point(380, 19);
-            this.numericUpDown19.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown19.Location = new System.Drawing.Point(285, 15);
             this.numericUpDown19.Name = "numericUpDown19";
-            this.numericUpDown19.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown19.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown19.TabIndex = 60;
             // 
             // textBox1
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Enabled = false;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox1.Location = new System.Drawing.Point(16, 23);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Location = new System.Drawing.Point(12, 19);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(321, 22);
+            this.textBox1.Size = new System.Drawing.Size(241, 24);
             this.textBox1.TabIndex = 59;
             this.textBox1.Text = "Chocolate Smoothie";
             // 
             // textBox2
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.Enabled = false;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox2.Location = new System.Drawing.Point(16, 65);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2.Location = new System.Drawing.Point(12, 66);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(321, 22);
+            this.textBox2.Size = new System.Drawing.Size(241, 24);
             this.textBox2.TabIndex = 58;
             this.textBox2.Text = "Fresh Mango Carrot Smoothie";
             // 
             // textBox3
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.Enabled = false;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox3.Location = new System.Drawing.Point(16, 106);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox3.Location = new System.Drawing.Point(12, 106);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(321, 22);
+            this.textBox3.Size = new System.Drawing.Size(241, 24);
             this.textBox3.TabIndex = 57;
             this.textBox3.Text = "Fresh Strawberry Banana Smoothie";
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(453, 192);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker2.Location = new System.Drawing.Point(340, 191);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker2.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker2.TabIndex = 73;
             // 
             // dateTimePicker3
             // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(453, 149);
-            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker3.Location = new System.Drawing.Point(340, 149);
             this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker3.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker3.TabIndex = 72;
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(380, 191);
-            this.numericUpDown2.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown2.Location = new System.Drawing.Point(285, 190);
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown2.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown2.TabIndex = 70;
             // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(380, 149);
-            this.numericUpDown3.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown3.Location = new System.Drawing.Point(285, 149);
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown3.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown3.TabIndex = 69;
             // 
             // textBox4
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox4.Enabled = false;
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox4.Location = new System.Drawing.Point(16, 153);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox4.Location = new System.Drawing.Point(12, 152);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(321, 22);
+            this.textBox4.Size = new System.Drawing.Size(241, 24);
             this.textBox4.TabIndex = 68;
             this.textBox4.Text = "Fresh Sweet Greens Smoothie";
             // 
             // textBox5
             // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox5.Enabled = false;
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox5.Location = new System.Drawing.Point(16, 195);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox5.Location = new System.Drawing.Point(12, 193);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(321, 22);
+            this.textBox5.Size = new System.Drawing.Size(241, 24);
             this.textBox5.TabIndex = 67;
             this.textBox5.Text = "Strawberry Smoothie";
             // 
             // StarbucksSmoo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(778, 241);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(584, 223);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker3);
             this.Controls.Add(this.numericUpDown2);
@@ -210,6 +197,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox3);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "StarbucksSmoo";
             this.Text = "Starbucks Smoothies";
             this.Load += new System.EventHandler(this.StarbucksSmoo_Load);
