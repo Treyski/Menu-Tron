@@ -16,5 +16,10 @@ namespace Treys_Menu_Troon_5000
         {
             InitializeComponent();
         }
+
+        private void FiftyFourthBurgers_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

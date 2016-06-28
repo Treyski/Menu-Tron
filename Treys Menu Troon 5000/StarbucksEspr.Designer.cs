@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StarbucksEspr));
             this.dateTimePicker17 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker18 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker19 = new System.Windows.Forms.DateTimePicker();
@@ -128,50 +129,44 @@
             // 
             // dateTimePicker17
             // 
-            this.dateTimePicker17.Location = new System.Drawing.Point(459, 97);
-            this.dateTimePicker17.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker17.Location = new System.Drawing.Point(344, 79);
             this.dateTimePicker17.Name = "dateTimePicker17";
-            this.dateTimePicker17.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker17.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker17.TabIndex = 65;
             // 
             // dateTimePicker18
             // 
-            this.dateTimePicker18.Location = new System.Drawing.Point(459, 53);
-            this.dateTimePicker18.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker18.Location = new System.Drawing.Point(344, 43);
             this.dateTimePicker18.Name = "dateTimePicker18";
-            this.dateTimePicker18.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker18.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker18.TabIndex = 64;
             // 
             // dateTimePicker19
             // 
-            this.dateTimePicker19.Location = new System.Drawing.Point(459, 10);
-            this.dateTimePicker19.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker19.Location = new System.Drawing.Point(344, 8);
             this.dateTimePicker19.Name = "dateTimePicker19";
-            this.dateTimePicker19.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker19.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker19.TabIndex = 63;
             // 
             // numericUpDown17
             // 
-            this.numericUpDown17.Location = new System.Drawing.Point(386, 97);
-            this.numericUpDown17.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown17.Location = new System.Drawing.Point(290, 79);
             this.numericUpDown17.Name = "numericUpDown17";
-            this.numericUpDown17.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown17.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown17.TabIndex = 62;
             // 
             // numericUpDown18
             // 
-            this.numericUpDown18.Location = new System.Drawing.Point(386, 52);
-            this.numericUpDown18.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown18.Location = new System.Drawing.Point(290, 42);
             this.numericUpDown18.Name = "numericUpDown18";
-            this.numericUpDown18.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown18.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown18.TabIndex = 61;
             // 
             // numericUpDown19
             // 
-            this.numericUpDown19.Location = new System.Drawing.Point(386, 10);
-            this.numericUpDown19.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown19.Location = new System.Drawing.Point(290, 8);
             this.numericUpDown19.Name = "numericUpDown19";
-            this.numericUpDown19.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown19.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown19.TabIndex = 60;
             // 
             // textBox1
@@ -179,10 +174,9 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Enabled = false;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox1.Location = new System.Drawing.Point(22, 14);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Location = new System.Drawing.Point(16, 11);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(321, 22);
+            this.textBox1.Size = new System.Drawing.Size(241, 17);
             this.textBox1.TabIndex = 59;
             this.textBox1.Text = "Caffe Latte";
             // 
@@ -191,10 +185,9 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Enabled = false;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox2.Location = new System.Drawing.Point(22, 56);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2.Location = new System.Drawing.Point(16, 46);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(321, 22);
+            this.textBox2.Size = new System.Drawing.Size(241, 17);
             this.textBox2.TabIndex = 58;
             this.textBox2.Text = "Caffe Mocha";
             // 
@@ -203,59 +196,52 @@
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Enabled = false;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox3.Location = new System.Drawing.Point(22, 97);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox3.Location = new System.Drawing.Point(16, 79);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(321, 22);
+            this.textBox3.Size = new System.Drawing.Size(241, 17);
             this.textBox3.TabIndex = 57;
             this.textBox3.Text = "Cappuccino";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(459, 223);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker1.Location = new System.Drawing.Point(344, 181);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker1.TabIndex = 74;
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(459, 179);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker2.Location = new System.Drawing.Point(344, 145);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker2.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker2.TabIndex = 73;
             // 
             // dateTimePicker3
             // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(459, 136);
-            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker3.Location = new System.Drawing.Point(344, 110);
             this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker3.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker3.TabIndex = 72;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(386, 223);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown1.Location = new System.Drawing.Point(290, 181);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown1.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown1.TabIndex = 71;
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(386, 178);
-            this.numericUpDown2.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown2.Location = new System.Drawing.Point(290, 145);
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown2.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown2.TabIndex = 70;
             // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(386, 136);
-            this.numericUpDown3.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown3.Location = new System.Drawing.Point(290, 110);
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown3.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown3.TabIndex = 69;
             // 
             // textBox4
@@ -263,10 +249,9 @@
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Enabled = false;
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox4.Location = new System.Drawing.Point(22, 140);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox4.Location = new System.Drawing.Point(16, 114);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(321, 22);
+            this.textBox4.Size = new System.Drawing.Size(241, 17);
             this.textBox4.TabIndex = 68;
             this.textBox4.Text = "Caramel Espresso Granita";
             // 
@@ -275,10 +260,9 @@
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.Enabled = false;
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox5.Location = new System.Drawing.Point(22, 182);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox5.Location = new System.Drawing.Point(16, 148);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(321, 22);
+            this.textBox5.Size = new System.Drawing.Size(241, 17);
             this.textBox5.TabIndex = 67;
             this.textBox5.Text = "Caramel Macchiato";
             // 
@@ -287,59 +271,52 @@
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox6.Enabled = false;
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox6.Location = new System.Drawing.Point(22, 223);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox6.Location = new System.Drawing.Point(16, 181);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(321, 22);
+            this.textBox6.Size = new System.Drawing.Size(241, 17);
             this.textBox6.TabIndex = 66;
             this.textBox6.Text = "Caramelized Honey Latte";
             // 
             // dateTimePicker4
             // 
-            this.dateTimePicker4.Location = new System.Drawing.Point(459, 350);
-            this.dateTimePicker4.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker4.Location = new System.Drawing.Point(344, 284);
             this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker4.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker4.TabIndex = 83;
             // 
             // dateTimePicker5
             // 
-            this.dateTimePicker5.Location = new System.Drawing.Point(459, 306);
-            this.dateTimePicker5.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker5.Location = new System.Drawing.Point(344, 249);
             this.dateTimePicker5.Name = "dateTimePicker5";
-            this.dateTimePicker5.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker5.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker5.TabIndex = 82;
             // 
             // dateTimePicker6
             // 
-            this.dateTimePicker6.Location = new System.Drawing.Point(459, 263);
-            this.dateTimePicker6.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker6.Location = new System.Drawing.Point(344, 214);
             this.dateTimePicker6.Name = "dateTimePicker6";
-            this.dateTimePicker6.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker6.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker6.TabIndex = 81;
             // 
             // numericUpDown4
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(386, 350);
-            this.numericUpDown4.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown4.Location = new System.Drawing.Point(290, 284);
             this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown4.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown4.TabIndex = 80;
             // 
             // numericUpDown5
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(386, 305);
-            this.numericUpDown5.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown5.Location = new System.Drawing.Point(290, 248);
             this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown5.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown5.TabIndex = 79;
             // 
             // numericUpDown6
             // 
-            this.numericUpDown6.Location = new System.Drawing.Point(386, 263);
-            this.numericUpDown6.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown6.Location = new System.Drawing.Point(290, 214);
             this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown6.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown6.TabIndex = 78;
             // 
             // textBox7
@@ -347,10 +324,9 @@
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox7.Enabled = false;
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox7.Location = new System.Drawing.Point(22, 267);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox7.Location = new System.Drawing.Point(16, 217);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(321, 22);
+            this.textBox7.Size = new System.Drawing.Size(241, 17);
             this.textBox7.TabIndex = 77;
             this.textBox7.Text = "Cinnamon Dolce Latte";
             // 
@@ -359,10 +335,9 @@
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox8.Enabled = false;
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox8.Location = new System.Drawing.Point(22, 309);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox8.Location = new System.Drawing.Point(16, 251);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(321, 22);
+            this.textBox8.Size = new System.Drawing.Size(241, 17);
             this.textBox8.TabIndex = 76;
             this.textBox8.Text = "Espresso";
             // 
@@ -371,59 +346,52 @@
             this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox9.Enabled = false;
             this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox9.Location = new System.Drawing.Point(22, 350);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox9.Location = new System.Drawing.Point(16, 284);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(321, 22);
+            this.textBox9.Size = new System.Drawing.Size(241, 17);
             this.textBox9.TabIndex = 75;
             this.textBox9.Text = "Espresso Con Panna";
             // 
             // dateTimePicker7
             // 
-            this.dateTimePicker7.Location = new System.Drawing.Point(459, 474);
-            this.dateTimePicker7.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker7.Location = new System.Drawing.Point(344, 385);
             this.dateTimePicker7.Name = "dateTimePicker7";
-            this.dateTimePicker7.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker7.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker7.TabIndex = 92;
             // 
             // dateTimePicker8
             // 
-            this.dateTimePicker8.Location = new System.Drawing.Point(459, 430);
-            this.dateTimePicker8.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker8.Location = new System.Drawing.Point(344, 349);
             this.dateTimePicker8.Name = "dateTimePicker8";
-            this.dateTimePicker8.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker8.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker8.TabIndex = 91;
             // 
             // dateTimePicker9
             // 
-            this.dateTimePicker9.Location = new System.Drawing.Point(459, 387);
-            this.dateTimePicker9.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker9.Location = new System.Drawing.Point(344, 314);
             this.dateTimePicker9.Name = "dateTimePicker9";
-            this.dateTimePicker9.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker9.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker9.TabIndex = 90;
             // 
             // numericUpDown7
             // 
-            this.numericUpDown7.Location = new System.Drawing.Point(386, 474);
-            this.numericUpDown7.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown7.Location = new System.Drawing.Point(290, 385);
             this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown7.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown7.TabIndex = 89;
             // 
             // numericUpDown8
             // 
-            this.numericUpDown8.Location = new System.Drawing.Point(386, 429);
-            this.numericUpDown8.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown8.Location = new System.Drawing.Point(290, 349);
             this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown8.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown8.TabIndex = 88;
             // 
             // numericUpDown9
             // 
-            this.numericUpDown9.Location = new System.Drawing.Point(386, 387);
-            this.numericUpDown9.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown9.Location = new System.Drawing.Point(290, 314);
             this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown9.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown9.TabIndex = 87;
             // 
             // textBox10
@@ -431,10 +399,9 @@
             this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox10.Enabled = false;
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox10.Location = new System.Drawing.Point(22, 391);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox10.Location = new System.Drawing.Point(16, 318);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(321, 22);
+            this.textBox10.Size = new System.Drawing.Size(241, 17);
             this.textBox10.TabIndex = 86;
             this.textBox10.Text = "Espresso Macchiato";
             // 
@@ -443,10 +410,9 @@
             this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox11.Enabled = false;
             this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox11.Location = new System.Drawing.Point(22, 433);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox11.Location = new System.Drawing.Point(16, 352);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(321, 22);
+            this.textBox11.Size = new System.Drawing.Size(241, 17);
             this.textBox11.TabIndex = 85;
             this.textBox11.Text = "Flat White";
             // 
@@ -455,59 +421,52 @@
             this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox12.Enabled = false;
             this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox12.Location = new System.Drawing.Point(22, 474);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox12.Location = new System.Drawing.Point(16, 385);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(321, 22);
+            this.textBox12.Size = new System.Drawing.Size(241, 17);
             this.textBox12.TabIndex = 84;
             this.textBox12.Text = "Iced Caffe Americano";
             // 
             // dateTimePicker10
             // 
-            this.dateTimePicker10.Location = new System.Drawing.Point(459, 602);
-            this.dateTimePicker10.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker10.Location = new System.Drawing.Point(344, 489);
             this.dateTimePicker10.Name = "dateTimePicker10";
-            this.dateTimePicker10.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker10.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker10.TabIndex = 101;
             // 
             // dateTimePicker11
             // 
-            this.dateTimePicker11.Location = new System.Drawing.Point(459, 558);
-            this.dateTimePicker11.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker11.Location = new System.Drawing.Point(344, 453);
             this.dateTimePicker11.Name = "dateTimePicker11";
-            this.dateTimePicker11.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker11.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker11.TabIndex = 100;
             // 
             // dateTimePicker12
             // 
-            this.dateTimePicker12.Location = new System.Drawing.Point(459, 515);
-            this.dateTimePicker12.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker12.Location = new System.Drawing.Point(344, 418);
             this.dateTimePicker12.Name = "dateTimePicker12";
-            this.dateTimePicker12.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker12.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker12.TabIndex = 99;
             // 
             // numericUpDown10
             // 
-            this.numericUpDown10.Location = new System.Drawing.Point(386, 602);
-            this.numericUpDown10.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown10.Location = new System.Drawing.Point(290, 489);
             this.numericUpDown10.Name = "numericUpDown10";
-            this.numericUpDown10.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown10.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown10.TabIndex = 98;
             // 
             // numericUpDown11
             // 
-            this.numericUpDown11.Location = new System.Drawing.Point(386, 557);
-            this.numericUpDown11.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown11.Location = new System.Drawing.Point(290, 453);
             this.numericUpDown11.Name = "numericUpDown11";
-            this.numericUpDown11.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown11.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown11.TabIndex = 97;
             // 
             // numericUpDown12
             // 
-            this.numericUpDown12.Location = new System.Drawing.Point(386, 515);
-            this.numericUpDown12.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown12.Location = new System.Drawing.Point(290, 418);
             this.numericUpDown12.Name = "numericUpDown12";
-            this.numericUpDown12.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown12.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown12.TabIndex = 96;
             // 
             // textBox13
@@ -515,10 +474,9 @@
             this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox13.Enabled = false;
             this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox13.Location = new System.Drawing.Point(22, 519);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox13.Location = new System.Drawing.Point(16, 422);
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(321, 22);
+            this.textBox13.Size = new System.Drawing.Size(241, 17);
             this.textBox13.TabIndex = 95;
             this.textBox13.Text = "Iced Caffe Latte";
             // 
@@ -527,10 +485,9 @@
             this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox14.Enabled = false;
             this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox14.Location = new System.Drawing.Point(22, 561);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox14.Location = new System.Drawing.Point(16, 456);
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(321, 22);
+            this.textBox14.Size = new System.Drawing.Size(241, 17);
             this.textBox14.TabIndex = 94;
             this.textBox14.Text = "Iced Caffe Mocha";
             // 
@@ -539,59 +496,52 @@
             this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox15.Enabled = false;
             this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox15.Location = new System.Drawing.Point(22, 602);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox15.Location = new System.Drawing.Point(16, 489);
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(321, 22);
+            this.textBox15.Size = new System.Drawing.Size(241, 17);
             this.textBox15.TabIndex = 93;
             this.textBox15.Text = "Iced Caramel Macchiato";
             // 
             // dateTimePicker13
             // 
-            this.dateTimePicker13.Location = new System.Drawing.Point(459, 727);
-            this.dateTimePicker13.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker13.Location = new System.Drawing.Point(344, 591);
             this.dateTimePicker13.Name = "dateTimePicker13";
-            this.dateTimePicker13.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker13.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker13.TabIndex = 110;
             // 
             // dateTimePicker14
             // 
-            this.dateTimePicker14.Location = new System.Drawing.Point(459, 683);
-            this.dateTimePicker14.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker14.Location = new System.Drawing.Point(344, 555);
             this.dateTimePicker14.Name = "dateTimePicker14";
-            this.dateTimePicker14.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker14.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker14.TabIndex = 109;
             // 
             // dateTimePicker15
             // 
-            this.dateTimePicker15.Location = new System.Drawing.Point(459, 640);
-            this.dateTimePicker15.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker15.Location = new System.Drawing.Point(344, 520);
             this.dateTimePicker15.Name = "dateTimePicker15";
-            this.dateTimePicker15.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker15.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker15.TabIndex = 108;
             // 
             // numericUpDown13
             // 
-            this.numericUpDown13.Location = new System.Drawing.Point(386, 727);
-            this.numericUpDown13.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown13.Location = new System.Drawing.Point(290, 591);
             this.numericUpDown13.Name = "numericUpDown13";
-            this.numericUpDown13.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown13.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown13.TabIndex = 107;
             // 
             // numericUpDown14
             // 
-            this.numericUpDown14.Location = new System.Drawing.Point(386, 682);
-            this.numericUpDown14.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown14.Location = new System.Drawing.Point(290, 554);
             this.numericUpDown14.Name = "numericUpDown14";
-            this.numericUpDown14.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown14.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown14.TabIndex = 106;
             // 
             // numericUpDown15
             // 
-            this.numericUpDown15.Location = new System.Drawing.Point(386, 640);
-            this.numericUpDown15.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown15.Location = new System.Drawing.Point(290, 520);
             this.numericUpDown15.Name = "numericUpDown15";
-            this.numericUpDown15.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown15.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown15.TabIndex = 105;
             // 
             // textBox16
@@ -599,10 +549,9 @@
             this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox16.Enabled = false;
             this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox16.Location = new System.Drawing.Point(22, 644);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox16.Location = new System.Drawing.Point(16, 523);
             this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(321, 22);
+            this.textBox16.Size = new System.Drawing.Size(241, 17);
             this.textBox16.TabIndex = 104;
             this.textBox16.Text = "Iced Caramelized Honey Latte";
             // 
@@ -611,10 +560,9 @@
             this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox17.Enabled = false;
             this.textBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox17.Location = new System.Drawing.Point(22, 686);
-            this.textBox17.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox17.Location = new System.Drawing.Point(16, 557);
             this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(321, 22);
+            this.textBox17.Size = new System.Drawing.Size(241, 17);
             this.textBox17.TabIndex = 103;
             this.textBox17.Text = "Iced Cinnamon Dolce Latte";
             // 
@@ -623,59 +571,52 @@
             this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox18.Enabled = false;
             this.textBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox18.Location = new System.Drawing.Point(22, 727);
-            this.textBox18.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox18.Location = new System.Drawing.Point(16, 591);
             this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(321, 22);
+            this.textBox18.Size = new System.Drawing.Size(241, 17);
             this.textBox18.TabIndex = 102;
             this.textBox18.Text = "Iced Skinny Cinnamon Dolce Latte";
             // 
             // dateTimePicker16
             // 
-            this.dateTimePicker16.Location = new System.Drawing.Point(459, 854);
-            this.dateTimePicker16.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker16.Location = new System.Drawing.Point(344, 694);
             this.dateTimePicker16.Name = "dateTimePicker16";
-            this.dateTimePicker16.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker16.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker16.TabIndex = 119;
             // 
             // dateTimePicker20
             // 
-            this.dateTimePicker20.Location = new System.Drawing.Point(459, 810);
-            this.dateTimePicker20.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker20.Location = new System.Drawing.Point(344, 658);
             this.dateTimePicker20.Name = "dateTimePicker20";
-            this.dateTimePicker20.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker20.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker20.TabIndex = 118;
             // 
             // dateTimePicker21
             // 
-            this.dateTimePicker21.Location = new System.Drawing.Point(459, 767);
-            this.dateTimePicker21.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker21.Location = new System.Drawing.Point(344, 623);
             this.dateTimePicker21.Name = "dateTimePicker21";
-            this.dateTimePicker21.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker21.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker21.TabIndex = 117;
             // 
             // numericUpDown16
             // 
-            this.numericUpDown16.Location = new System.Drawing.Point(386, 854);
-            this.numericUpDown16.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown16.Location = new System.Drawing.Point(290, 694);
             this.numericUpDown16.Name = "numericUpDown16";
-            this.numericUpDown16.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown16.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown16.TabIndex = 116;
             // 
             // numericUpDown20
             // 
-            this.numericUpDown20.Location = new System.Drawing.Point(386, 809);
-            this.numericUpDown20.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown20.Location = new System.Drawing.Point(290, 657);
             this.numericUpDown20.Name = "numericUpDown20";
-            this.numericUpDown20.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown20.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown20.TabIndex = 115;
             // 
             // numericUpDown21
             // 
-            this.numericUpDown21.Location = new System.Drawing.Point(386, 767);
-            this.numericUpDown21.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown21.Location = new System.Drawing.Point(290, 623);
             this.numericUpDown21.Name = "numericUpDown21";
-            this.numericUpDown21.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown21.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown21.TabIndex = 114;
             // 
             // textBox19
@@ -683,10 +624,9 @@
             this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox19.Enabled = false;
             this.textBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox19.Location = new System.Drawing.Point(22, 771);
-            this.textBox19.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox19.Location = new System.Drawing.Point(16, 626);
             this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(321, 22);
+            this.textBox19.Size = new System.Drawing.Size(241, 17);
             this.textBox19.TabIndex = 113;
             this.textBox19.Text = "Iced Skinny Mocha";
             // 
@@ -695,10 +635,9 @@
             this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox20.Enabled = false;
             this.textBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox20.Location = new System.Drawing.Point(22, 813);
-            this.textBox20.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox20.Location = new System.Drawing.Point(16, 661);
             this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(321, 22);
+            this.textBox20.Size = new System.Drawing.Size(241, 17);
             this.textBox20.TabIndex = 112;
             this.textBox20.Text = "Iced Vanilla Latte";
             // 
@@ -707,59 +646,52 @@
             this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox21.Enabled = false;
             this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox21.Location = new System.Drawing.Point(22, 854);
-            this.textBox21.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox21.Location = new System.Drawing.Point(16, 694);
             this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(321, 22);
+            this.textBox21.Size = new System.Drawing.Size(241, 17);
             this.textBox21.TabIndex = 111;
             this.textBox21.Text = "Iced White Chocolate Mocha";
             // 
             // dateTimePicker22
             // 
-            this.dateTimePicker22.Location = new System.Drawing.Point(459, 981);
-            this.dateTimePicker22.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker22.Location = new System.Drawing.Point(344, 797);
             this.dateTimePicker22.Name = "dateTimePicker22";
-            this.dateTimePicker22.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker22.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker22.TabIndex = 128;
             // 
             // dateTimePicker23
             // 
-            this.dateTimePicker23.Location = new System.Drawing.Point(459, 937);
-            this.dateTimePicker23.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker23.Location = new System.Drawing.Point(344, 761);
             this.dateTimePicker23.Name = "dateTimePicker23";
-            this.dateTimePicker23.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker23.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker23.TabIndex = 127;
             // 
             // dateTimePicker24
             // 
-            this.dateTimePicker24.Location = new System.Drawing.Point(459, 894);
-            this.dateTimePicker24.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker24.Location = new System.Drawing.Point(344, 726);
             this.dateTimePicker24.Name = "dateTimePicker24";
-            this.dateTimePicker24.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker24.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker24.TabIndex = 126;
             // 
             // numericUpDown22
             // 
-            this.numericUpDown22.Location = new System.Drawing.Point(386, 981);
-            this.numericUpDown22.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown22.Location = new System.Drawing.Point(290, 797);
             this.numericUpDown22.Name = "numericUpDown22";
-            this.numericUpDown22.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown22.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown22.TabIndex = 125;
             // 
             // numericUpDown23
             // 
-            this.numericUpDown23.Location = new System.Drawing.Point(386, 936);
-            this.numericUpDown23.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown23.Location = new System.Drawing.Point(290, 760);
             this.numericUpDown23.Name = "numericUpDown23";
-            this.numericUpDown23.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown23.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown23.TabIndex = 124;
             // 
             // numericUpDown24
             // 
-            this.numericUpDown24.Location = new System.Drawing.Point(386, 894);
-            this.numericUpDown24.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown24.Location = new System.Drawing.Point(290, 726);
             this.numericUpDown24.Name = "numericUpDown24";
-            this.numericUpDown24.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown24.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown24.TabIndex = 123;
             // 
             // textBox22
@@ -767,10 +699,9 @@
             this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox22.Enabled = false;
             this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox22.Location = new System.Drawing.Point(22, 898);
-            this.textBox22.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox22.Location = new System.Drawing.Point(16, 730);
             this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(321, 22);
+            this.textBox22.Size = new System.Drawing.Size(241, 17);
             this.textBox22.TabIndex = 122;
             this.textBox22.Text = "Latte Macchiato";
             // 
@@ -779,10 +710,9 @@
             this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox23.Enabled = false;
             this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox23.Location = new System.Drawing.Point(22, 940);
-            this.textBox23.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox23.Location = new System.Drawing.Point(16, 764);
             this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(321, 22);
+            this.textBox23.Size = new System.Drawing.Size(241, 17);
             this.textBox23.TabIndex = 121;
             this.textBox23.Text = "Shinny Mocha";
             // 
@@ -791,18 +721,19 @@
             this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox24.Enabled = false;
             this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox24.Location = new System.Drawing.Point(22, 981);
-            this.textBox24.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox24.Location = new System.Drawing.Point(16, 797);
             this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(321, 22);
+            this.textBox24.Size = new System.Drawing.Size(241, 17);
             this.textBox24.TabIndex = 120;
             this.textBox24.Text = "White Chocolate Mocha";
             // 
             // StarbucksEspr
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(783, 1037);
+            this.AutoScroll = true;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(595, 624);
             this.Controls.Add(this.dateTimePicker22);
             this.Controls.Add(this.dateTimePicker23);
             this.Controls.Add(this.dateTimePicker24);
@@ -875,6 +806,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox3);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "StarbucksEspr";
             this.Text = "Starbucks Espresso";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).EndInit();

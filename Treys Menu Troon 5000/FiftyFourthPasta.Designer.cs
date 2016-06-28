@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FiftyFourthPasta));
             this.txtbSCT = new System.Windows.Forms.TextBox();
             this.txtbPBCDS = new System.Windows.Forms.TextBox();
             this.dateTimePicker8 = new System.Windows.Forms.DateTimePicker();
@@ -52,149 +53,135 @@
             // 
             // txtbSCT
             // 
-            this.txtbSCT.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtbSCT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbSCT.Enabled = false;
             this.txtbSCT.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.txtbSCT.Location = new System.Drawing.Point(13, 64);
-            this.txtbSCT.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbSCT.Location = new System.Drawing.Point(10, 72);
             this.txtbSCT.Name = "txtbSCT";
-            this.txtbSCT.Size = new System.Drawing.Size(321, 22);
+            this.txtbSCT.Size = new System.Drawing.Size(241, 24);
             this.txtbSCT.TabIndex = 46;
             this.txtbSCT.Text = "Chicken & Shrimp Fettuccine";
             // 
             // txtbPBCDS
             // 
-            this.txtbPBCDS.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtbPBCDS.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbPBCDS.Enabled = false;
             this.txtbPBCDS.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.txtbPBCDS.Location = new System.Drawing.Point(13, 108);
-            this.txtbPBCDS.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbPBCDS.Location = new System.Drawing.Point(10, 125);
             this.txtbPBCDS.Name = "txtbPBCDS";
-            this.txtbPBCDS.Size = new System.Drawing.Size(321, 22);
+            this.txtbPBCDS.Size = new System.Drawing.Size(241, 24);
             this.txtbPBCDS.TabIndex = 45;
             this.txtbPBCDS.Text = "Mac Daddy & Cheese";
             // 
             // dateTimePicker8
             // 
-            this.dateTimePicker8.Location = new System.Drawing.Point(450, 60);
-            this.dateTimePicker8.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker8.Location = new System.Drawing.Point(338, 76);
             this.dateTimePicker8.Name = "dateTimePicker8";
-            this.dateTimePicker8.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker8.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker8.TabIndex = 44;
             // 
             // dateTimePicker7
             // 
-            this.dateTimePicker7.Location = new System.Drawing.Point(450, 106);
-            this.dateTimePicker7.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker7.Location = new System.Drawing.Point(338, 129);
             this.dateTimePicker7.Name = "dateTimePicker7";
-            this.dateTimePicker7.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker7.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker7.TabIndex = 43;
             // 
             // numericUpDown4
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(377, 106);
-            this.numericUpDown4.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown4.Location = new System.Drawing.Point(294, 125);
             this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown4.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown4.TabIndex = 42;
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(377, 60);
-            this.numericUpDown2.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown2.Location = new System.Drawing.Point(294, 71);
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown2.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown2.TabIndex = 41;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(450, 16);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker1.Location = new System.Drawing.Point(338, 13);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker1.TabIndex = 40;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(377, 16);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown1.Location = new System.Drawing.Point(294, 15);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown1.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown1.TabIndex = 39;
             // 
             // txtbCCCD
             // 
-            this.txtbCCCD.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtbCCCD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbCCCD.Enabled = false;
             this.txtbCCCD.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.txtbCCCD.Location = new System.Drawing.Point(13, 18);
-            this.txtbCCCD.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbCCCD.Location = new System.Drawing.Point(10, 15);
             this.txtbCCCD.Name = "txtbCCCD";
-            this.txtbCCCD.Size = new System.Drawing.Size(342, 22);
+            this.txtbCCCD.Size = new System.Drawing.Size(267, 24);
             this.txtbCCCD.TabIndex = 38;
             this.txtbCCCD.Text = "Blackened or Grilled Chicken Fettuccine";
             // 
             // textBox1
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Enabled = false;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox1.Location = new System.Drawing.Point(13, 198);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Location = new System.Drawing.Point(10, 230);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(321, 22);
+            this.textBox1.Size = new System.Drawing.Size(241, 24);
             this.textBox1.TabIndex = 55;
             this.textBox1.Text = "Spinach & Artichoke Cream Pasta";
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(450, 194);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker2.Location = new System.Drawing.Point(338, 234);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker2.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker2.TabIndex = 53;
             // 
             // numericUpDown5
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(377, 194);
-            this.numericUpDown5.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown5.Location = new System.Drawing.Point(294, 234);
             this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown5.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown5.TabIndex = 50;
             // 
             // dateTimePicker4
             // 
-            this.dateTimePicker4.Location = new System.Drawing.Point(450, 150);
-            this.dateTimePicker4.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker4.Location = new System.Drawing.Point(336, 184);
             this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(296, 22);
+            this.dateTimePicker4.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker4.TabIndex = 49;
             // 
             // numericUpDown6
             // 
-            this.numericUpDown6.Location = new System.Drawing.Point(377, 150);
-            this.numericUpDown6.Margin = new System.Windows.Forms.Padding(4);
+            this.numericUpDown6.Location = new System.Drawing.Point(292, 180);
             this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(35, 22);
+            this.numericUpDown6.Size = new System.Drawing.Size(26, 20);
             this.numericUpDown6.TabIndex = 48;
             // 
             // textBox3
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.Enabled = false;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox3.Location = new System.Drawing.Point(13, 152);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox3.Location = new System.Drawing.Point(8, 180);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(321, 22);
+            this.textBox3.Size = new System.Drawing.Size(241, 24);
             this.textBox3.TabIndex = 47;
             this.textBox3.Text = "Rattlesnake Pasta";
             // 
             // FiftyFourthPasta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(761, 239);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(571, 259);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.numericUpDown5);
@@ -210,6 +197,7 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.txtbCCCD);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FiftyFourthPasta";
             this.Text = "Fifty Fourth Pasta";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
