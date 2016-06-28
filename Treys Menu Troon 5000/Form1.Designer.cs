@@ -107,7 +107,7 @@
             this.Controls.Add(this.btnDQ);
             this.Controls.Add(this.txbTitle);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Me-menu-ory";
             this.ResumeLayout(false);
             this.PerformLayout();
 

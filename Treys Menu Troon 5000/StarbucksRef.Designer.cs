@@ -32,15 +32,15 @@
             this.dateTimePicker17 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker18 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker19 = new System.Windows.Forms.DateTimePicker();
-            this.numericUpDown17 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown18 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown19 = new System.Windows.Forms.NumericUpDown();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.ratingVeryBerryRef = new System.Windows.Forms.NumericUpDown();
+            this.ratingStrawberryRef = new System.Windows.Forms.NumericUpDown();
+            this.ratingCoolLimeRef = new System.Windows.Forms.NumericUpDown();
+            this.txtCoolLimeRef = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ratingVeryBerryRef)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ratingStrawberryRef)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ratingCoolLimeRef)).BeginInit();
             this.SuspendLayout();
             // 
             // dateTimePicker17
@@ -64,37 +64,37 @@
             this.dateTimePicker19.Size = new System.Drawing.Size(223, 20);
             this.dateTimePicker19.TabIndex = 63;
             // 
-            // numericUpDown17
+            // ratingVeryBerryRef
             // 
-            this.numericUpDown17.Location = new System.Drawing.Point(288, 154);
-            this.numericUpDown17.Name = "numericUpDown17";
-            this.numericUpDown17.Size = new System.Drawing.Size(26, 20);
-            this.numericUpDown17.TabIndex = 62;
+            this.ratingVeryBerryRef.Location = new System.Drawing.Point(288, 154);
+            this.ratingVeryBerryRef.Name = "ratingVeryBerryRef";
+            this.ratingVeryBerryRef.Size = new System.Drawing.Size(26, 20);
+            this.ratingVeryBerryRef.TabIndex = 62;
             // 
-            // numericUpDown18
+            // ratingStrawberryRef
             // 
-            this.numericUpDown18.Location = new System.Drawing.Point(288, 88);
-            this.numericUpDown18.Name = "numericUpDown18";
-            this.numericUpDown18.Size = new System.Drawing.Size(26, 20);
-            this.numericUpDown18.TabIndex = 61;
+            this.ratingStrawberryRef.Location = new System.Drawing.Point(288, 88);
+            this.ratingStrawberryRef.Name = "ratingStrawberryRef";
+            this.ratingStrawberryRef.Size = new System.Drawing.Size(26, 20);
+            this.ratingStrawberryRef.TabIndex = 61;
             // 
-            // numericUpDown19
+            // ratingCoolLimeRef
             // 
-            this.numericUpDown19.Location = new System.Drawing.Point(288, 23);
-            this.numericUpDown19.Name = "numericUpDown19";
-            this.numericUpDown19.Size = new System.Drawing.Size(26, 20);
-            this.numericUpDown19.TabIndex = 60;
+            this.ratingCoolLimeRef.Location = new System.Drawing.Point(288, 23);
+            this.ratingCoolLimeRef.Name = "ratingCoolLimeRef";
+            this.ratingCoolLimeRef.Size = new System.Drawing.Size(26, 20);
+            this.ratingCoolLimeRef.TabIndex = 60;
             // 
-            // textBox1
+            // txtCoolLimeRef
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Enabled = false;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.textBox1.Location = new System.Drawing.Point(15, 26);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(241, 24);
-            this.textBox1.TabIndex = 59;
-            this.textBox1.Text = "Cool Lime Refresher";
+            this.txtCoolLimeRef.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtCoolLimeRef.Enabled = false;
+            this.txtCoolLimeRef.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.txtCoolLimeRef.Location = new System.Drawing.Point(15, 26);
+            this.txtCoolLimeRef.Name = "txtCoolLimeRef";
+            this.txtCoolLimeRef.Size = new System.Drawing.Size(241, 24);
+            this.txtCoolLimeRef.TabIndex = 59;
+            this.txtCoolLimeRef.Text = "Cool Lime Refresher";
             // 
             // textBox2
             // 
@@ -127,18 +127,20 @@
             this.Controls.Add(this.dateTimePicker17);
             this.Controls.Add(this.dateTimePicker18);
             this.Controls.Add(this.dateTimePicker19);
-            this.Controls.Add(this.numericUpDown17);
-            this.Controls.Add(this.numericUpDown18);
-            this.Controls.Add(this.numericUpDown19);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.ratingVeryBerryRef);
+            this.Controls.Add(this.ratingStrawberryRef);
+            this.Controls.Add(this.ratingCoolLimeRef);
+            this.Controls.Add(this.txtCoolLimeRef);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox3);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "StarbucksRef";
             this.Text = "Starbucks Refreshers";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).EndInit();
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.StarbucksRef_FormClosed);
+            this.Load += new System.EventHandler(this.StarbucksRef_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.ratingVeryBerryRef)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ratingStrawberryRef)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ratingCoolLimeRef)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,10 +151,10 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker17;
         private System.Windows.Forms.DateTimePicker dateTimePicker18;
         private System.Windows.Forms.DateTimePicker dateTimePicker19;
-        private System.Windows.Forms.NumericUpDown numericUpDown17;
-        private System.Windows.Forms.NumericUpDown numericUpDown18;
-        private System.Windows.Forms.NumericUpDown numericUpDown19;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.NumericUpDown ratingVeryBerryRef;
+        private System.Windows.Forms.NumericUpDown ratingStrawberryRef;
+        private System.Windows.Forms.NumericUpDown ratingCoolLimeRef;
+        private System.Windows.Forms.TextBox txtCoolLimeRef;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
     }
