@@ -46,7 +46,7 @@
             this.txbTitle.Name = "txbTitle";
             this.txbTitle.Size = new System.Drawing.Size(340, 41);
             this.txbTitle.TabIndex = 0;
-            this.txbTitle.Text = "Trey\'s Menu Tron 5000";
+            this.txbTitle.Text = "Me-menu-ory";
             this.txbTitle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txbTitle.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
